@@ -83,9 +83,9 @@ juvenile/
 │
 ├── lib/
 │   ├── bindings/
-│   ├── common/    
-│   ├── data/  
-│   ├── features/     
+│   ├── common/
+│   ├── data/
+│   ├── features/
 │   ├── localization/
     ├── utils/
 │   └── main.dart     # Entry point
