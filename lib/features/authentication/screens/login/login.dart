@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_common/get_reset.dart';
 import 'package:iconsax/iconsax.dart';
+import 'package:juvenile/features/authentication/screens/signup/SignupScreen.dart';
 import 'package:juvenile/utils/constants/colors.dart';
 import 'package:juvenile/utils/constants/image_strings.dart';
 import 'package:juvenile/utils/constants/sizes.dart';
@@ -57,7 +58,7 @@ class LoginScreen extends StatelessWidget {
                     TextFormField(
                       decoration: InputDecoration(
                         prefixIcon: Icon(Iconsax.direct_right5),
-                        labelText: JTexts.email,
+                        labelText: JTexts.emailOrPn,
                       ),
                     ),
                     const SizedBox(height: JSizes.spaceBtwInputFields),
@@ -98,7 +99,7 @@ class LoginScreen extends StatelessWidget {
                     SizedBox(
                         width: double.infinity,
                         child: OutlinedButton(
-                            onPressed: () {},
+                            onPressed: () => Get.to(() => SignupScreen()),
                             child: Text(JTexts.createAccount))),
 
                     const SizedBox(height: JSizes.spaceBtwItems),
