@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_common/get_reset.dart';
 import 'package:iconsax/iconsax.dart';
+import 'package:juvenile/features/authentication/screens/password_resetting/forgot_password.dart';
 import 'package:juvenile/features/authentication/screens/signup/SignupScreen.dart';
 import 'package:juvenile/utils/constants/colors.dart';
 import 'package:juvenile/utils/constants/image_strings.dart';
@@ -85,7 +86,7 @@ class LoginScreen extends StatelessWidget {
 
                         /// Forgot password
                         TextButton(
-                            onPressed: () {},
+                            onPressed: () => Get.to(() => const ForgotPassword()),
                             child: const Text(JTexts.forgetPassword)),
                       ],
                     ),
