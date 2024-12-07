@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
+import 'package:juvenile/features/authentication/screens/signup/verify_email.dart';
 import 'package:juvenile/utils/constants/colors.dart';
 import 'package:juvenile/utils/constants/enums.dart';
 import 'package:juvenile/utils/constants/sizes.dart';
@@ -129,7 +130,8 @@ class SignupScreen extends StatelessWidget {
                     SizedBox(
                         width: double.infinity,
                         child: ElevatedButton(
-                            onPressed: () {},
+                            onPressed: () =>
+                                Get.to(() => const VerifyEmailScreen()),
                             child: const Text(JTexts.createAccount))),
 
                     const SizedBox(height: JSizes.spaceBtwItems),
