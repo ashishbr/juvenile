@@ -1,14 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
-import 'package:iconsax/iconsax.dart';
 import 'package:juvenile/features/authentication/controllers.onboarding/on_boarding_contoller.dart';
 
 import 'package:juvenile/utils/constants/image_strings.dart';
-import 'package:juvenile/utils/constants/sizes.dart';
 import 'package:juvenile/utils/constants/text_strings.dart';
-import 'package:juvenile/utils/device/device_util.dart';
-
 import '../widgets/onboarding_page.dart';
 
 class OnBoardingScreen extends StatelessWidget {
