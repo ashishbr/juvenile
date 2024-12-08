@@ -1,6 +1,6 @@
 # juvenile
 
-A new Flutter E commerce project.
+A young Flutter E commerce project.
 
 ---
 
