@@ -7,7 +7,7 @@ class JTexts {
   static const String skip = "Skip";
   static const String done = "Done";
   static const String submit = "Submit";
-  static const String appName = "T-Store";
+  static const String appName = "T-store";
   static const String tContinue = "Continue";
 
 

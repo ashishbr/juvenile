@@ -4,6 +4,7 @@ import 'package:get/get_common/get_reset.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:juvenile/features/authentication/screens/password_resetting/forgot_password.dart';
 import 'package:juvenile/features/authentication/screens/signup/SignupScreen.dart';
+import 'package:juvenile/nav_menu.dart';
 import 'package:juvenile/utils/constants/colors.dart';
 import 'package:juvenile/utils/constants/image_strings.dart';
 import 'package:juvenile/utils/constants/sizes.dart';
@@ -95,7 +96,7 @@ class LoginScreen extends StatelessWidget {
                     SizedBox(
                         width: double.infinity,
                         child: ElevatedButton(
-                            onPressed: () {}, child: Text(JTexts.signIn))),
+                            onPressed: () => Get.to(() => const NavMenu()), child: Text(JTexts.signIn))),
                     const SizedBox(height: JSizes.spaceBtwItems),
                     SizedBox(
                         width: double.infinity,
