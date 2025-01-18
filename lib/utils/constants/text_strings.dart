@@ -67,4 +67,6 @@ class JTexts {
   static const String homeAppbarTitle = "Buy Away";
   static const String homeAppbarSubTitle = "Juvenile";
 
+  static const String nameAppBarTitle = "Welcome to";
+
 }

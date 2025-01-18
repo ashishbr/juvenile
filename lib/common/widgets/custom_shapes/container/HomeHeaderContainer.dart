@@ -8,11 +8,11 @@ class HomeHeaderContainer extends StatelessWidget {
   const HomeHeaderContainer({
     super.key,
     required this.darkMode,
-    this.child,
+    required this.child,
   });
 
   final bool darkMode;
-  final Widget? child;
+  final Widget child;
 
   @override
   Widget build(BuildContext context) {
@@ -59,6 +59,7 @@ class HomeHeaderContainer extends StatelessWidget {
                   child: JCircularContainer(
                     backgroundColor: JColors.textWhite.withOpacity(0.1),
                   )),
+              child,
             ],
           ),
         ),
